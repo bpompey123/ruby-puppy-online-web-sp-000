@@ -19,9 +19,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.join().map do |names|
-      puts names
-    end
+    @@all.each { |x| puts x}
   end
 
   def save
