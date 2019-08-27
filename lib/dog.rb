@@ -19,7 +19,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.join().each do |name|
+    @@all.join().map do |name|
       puts name
     end
   end
