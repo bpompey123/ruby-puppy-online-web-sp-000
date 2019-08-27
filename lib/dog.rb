@@ -19,7 +19,9 @@ class Dog
   end
 
   def self.print_all
-    puts @@all.join()
+    @@all.join().each do |name|
+      puts name
+    end
   end
 
   def save
